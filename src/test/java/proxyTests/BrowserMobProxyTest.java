@@ -39,7 +39,7 @@ public class BrowserMobProxyTest {
   }
 
   public void basicTest() throws Exception {
-    // create a new HAR with the label "yahoo.com"
+    // create a new HAR with the label "amazon.com"
     server.newHar("amazon.com");
     server.blacklistRequests("http://ecx.images-amazon.com/.*", 404);
     server.blacklistRequests(
