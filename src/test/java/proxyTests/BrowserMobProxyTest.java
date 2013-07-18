@@ -2,7 +2,8 @@ package proxyTests;
 
 import java.io.File;
 
-import org.browsermob.proxy.ProxyServer;
+import net.lightbody.bmp.proxy.ProxyServer;
+
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
